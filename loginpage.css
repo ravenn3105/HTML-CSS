@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+h2{
+    text-align: center;
+    color: #fff;
+}
+.container {	
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 1300px;
+    margin: 170px auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  .card{
+    background-color: cadetblue;
+    border-radius: 5px 5px 0 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+ 
+  .wrapped {
+    margin: 30px auto;
+  }
+  .signup {
+    margin: 30px auto;
+    margin-bottom: 30px;
+  }
+
+  .wrapped form{
+    padding: 30px 20px 25px 20px;
+  }
+  .wrapped form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .wrapped form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+  }
+  .wrapped form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    background: cadetblue;
+    border: 1px solid cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+  }
+  .wrapped form .button
